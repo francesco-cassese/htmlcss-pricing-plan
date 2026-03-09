@@ -76,8 +76,60 @@ body {
 .plan {
     min-width: 300px;
     flex-basis: calc((100% / 3) - (20px * 2) / 3);
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.professional {
+    background-color: var(--primary-color);
+    color: #fff;
+}
+
+.professional .billing-badge {
+    color: #000;
 }
 
 .plan-features {
     list-style-type: none;
+    margin: 10px 0 0 25px;
+}
+
+.plan-price,
+.plan-offer,
+.container-plan-btn {
+    text-align: center;
+}
+
+.plan-offer {
+    font-size: 12px;
+}
+
+.plan-status,
+.price-currency,
+.price-period {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.price-value {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+.billing-badge {
+    background-color: var(--bg-banner-offer);
+    border-radius: 5px;
+    padding: 2px;
+    font-weight: bold;
+}
+
+.plan-button {
+    background-color: #6500ff;
+    border: none;
+    border-radius: 20px;
+    color: #fff;
+    margin-top: 15px;
+    padding: 10px 30px;
 }
