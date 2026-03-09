@@ -108,6 +108,16 @@ body {
 
 .feature-item {
     margin: 15px 0;
+    position: relative;
+}
+
+.cross,
+.check {
+    font-size: 25px;
+    left: -30px;
+    bottom: -5px;
+    font-weight: 800;
+    position: absolute;
 }
 
 .plan-price,
