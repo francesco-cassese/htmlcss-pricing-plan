@@ -41,6 +41,11 @@ body {
     margin: 20px;
 }
 
+.header-title {
+    margin-bottom: 5px;
+}
+
 .container-input {
     text-align: right;
+    margin-top: 5px;
 }
