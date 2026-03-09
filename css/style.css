@@ -96,6 +96,11 @@ body {
     color: #000;
 }
 
+.features-container {
+    display: flex;
+    justify-content: center;
+}
+
 .plan-features {
     list-style-type: none;
     padding: 10px;
