@@ -19,6 +19,7 @@
 :root {
     --primary-color: #6500ff;
     --bg-banner-offer: #e3e3e3;
+    --bg-btn-plan-HV: #5200db;
 }
 
 .txt-secondary {
@@ -152,16 +153,30 @@ body {
 
 .plan-button {
     width: 80%;
-    background-color: #6500ff;
+    background-color: var(--primary-color);
     border: none;
     border-radius: 15px;
     color: #fff;
     margin-top: 15px;
     padding: 15px 30px;
     font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.plan-button:hover {
+    background-color: var(--bg-btn-plan-HV);
+    cursor: pointer;
+    transform: translateY(-3px);
+    box-shadow: 0 6px 15px rgba(101, 0, 255, 0.3);
 }
 
 .professional .plan-button {
     background-color: #fff;
     color: var(--primary-color);
+    transition: all 0.3s ease;
+}
+
+.professional .plan-button:hover {
+    background-color: #e6daff;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
 }
