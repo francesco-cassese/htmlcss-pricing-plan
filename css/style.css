@@ -9,3 +9,18 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+/*
+    ============================
+    ROOT & UTILITIES
+    ============================
+*/
+
+:root {
+    --primary-color: #6500ff;
+    --bg-banner-offer: #e3e3e3;
+}
+
+.txt-secondary {
+    color: #9c9297;
+}
