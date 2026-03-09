@@ -49,3 +49,31 @@ body {
     text-align: right;
     margin-top: 5px;
 }
+
+/*
+    =============================
+    MAIN
+    =============================
+*/
+
+.container-main {
+    min-height: 100vh;
+}
+
+/*
+    ============================
+    PLANS
+    ============================
+*/
+
+.plans {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.plan {
+    min-width: 300px;
+    flex-basis: calc((100% / 3) - (20px * 2) / 3);
+}
