@@ -24,3 +24,8 @@
 .txt-secondary {
     color: #9c9297;
 }
+
+body {
+    min-width: 320px;
+    font-family: sans-serif;
+}
