@@ -39,7 +39,7 @@ body {
 */
 
 .header-title {
-    font-size: 40px;
+    font-size: 45px;
     margin-bottom: 5px;
 }
 
@@ -240,6 +240,7 @@ input:checked+.slider::before {
     border-radius: 5px;
     padding: 2px;
     font-weight: bold;
+    padding: 5px;
 }
 
 .plan-button {
