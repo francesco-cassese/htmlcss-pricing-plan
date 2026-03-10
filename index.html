@@ -22,11 +22,17 @@
                 </p>
             </div>
             <div class="container-input">
-                <form action="header-action">
+                <form class="header-actions">
                     <label for="input-monthly" class="txt-secondary">Monthly</label>
-                    <input type="checkbox" id="input-monthly" name="billing-monthly">
+                    <div class="switch-container">
+                        <input type="checkbox" id="input-monthly" name="billing-monthly">
+                        <span class="slider"></span>
+                    </div>
                     <label for="input-yearly" class="txt-secondary">Yearly</label>
-                    <input type="checkbox" id="input-yearly" name="billing-yearly">
+                    <div class="switch-container">
+                        <input type="checkbox" id="input-yearly" name="billing-yearly">
+                        <span class="slider"></span>
+                    </div>
                 </form>
             </div>
         </div>
