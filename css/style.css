@@ -215,7 +215,7 @@ input:checked+.slider::before {
 }
 
 .plan-offer {
-    font-size: 12px;
+    font-size: 15px;
 }
 
 .price-currency,
