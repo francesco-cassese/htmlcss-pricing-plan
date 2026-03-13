@@ -13,6 +13,14 @@ Testare le conoscenze su:
 * **CSS3**: Utilizzo di variabili, Flexbox.
 * **Mobile-First**: Sviluppo ottimizzato partendo dalla risoluzione Mobile.
 
+### 📂 Struttura del Progetto
+```text
+htmlcss-pricing-plan/
+├── css/
+│   └── style.css       # Layout responsivo e logica Box Model
+├── index.html          # Markup strutturale semantico
+└── README.md           # Documentazione del progetto
+```
 ## 📱 Funzionamento Layout
 * **Mobile**: I piani si incolonnano verticalmente.
 * **Tablet**: I piani iniziano ad affiancarsi per ottimizzare lo spazio.
